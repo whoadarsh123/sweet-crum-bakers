@@ -1,0 +1,21 @@
+.selling-items {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3, 50vh); /* or use repeat(3, 30vw) */
+    gap: 30px;
+    place-content:center;
+    align-items: first baseline; /* center was causing vertical misalignment */
+}
+@media (max-width: 767px)
+{
+     .selling-items
+     {
+         height: auto;
+         width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 15px 5px;
+     }
+
+     
+}

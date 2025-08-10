@@ -1,0 +1,38 @@
+.Products-list
+{
+    height: 100vh;
+    position: sticky;
+    width: 20%;
+    border-right: 1px solid rgba(0, 0, 0, 0.153);
+    text-align: center;
+}
+.Product-page
+{ 
+
+    display: flex;
+}
+.Items
+{
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.Items li{
+    height: 8vh;
+    width: 30vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.153);
+    display: flex   ;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+}
+.Products
+{
+    padding: 7vh 5vh ;
+    display: flex;
+    gap: 20px;
+}

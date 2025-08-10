@@ -1,0 +1,15 @@
+.Container
+{
+    height: 60vh;
+    border: 1px solid rgba(128, 128, 128, 0.533);
+    margin: 10px 0px;
+     overflow:hidden;
+     position: ralative;
+}
+.Slide-Image
+{
+     width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}

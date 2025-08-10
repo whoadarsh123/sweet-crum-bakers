@@ -1,0 +1,16 @@
+.Item
+{
+    transition: 0.2s;
+    cursor: pointer;
+     height:30vh; 
+     width:30vh;
+     border-radius: 8px; 
+     object-fit: cover; 
+     box-shadow:0 0 10px black; 
+}
+ .Item:hover{
+    opacity: 89%;
+    transform: scale(1.01);
+ }
+
+ 
