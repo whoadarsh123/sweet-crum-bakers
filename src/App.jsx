@@ -12,13 +12,11 @@ function App() {
 
   return (
     <>
-     <Navbar/>
-     <HashRouter>
+     <Navbar/>  
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/Products' element={<Products/>}/>
      </Routes>
-     </HashRouter>
     </>
   )
 }
