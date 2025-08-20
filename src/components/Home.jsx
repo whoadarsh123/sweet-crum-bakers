@@ -11,12 +11,12 @@ function Home()
         <div>
     <Items/>
     <div className='selling-items'>
-      <Card  Image="/sweet-crum-bakers/rakhi-cake.png" title="Cakes" content="Upto 50% Off"/>
-      <Card  Image="/images/snacks.png"  title="Namkeen" content="Upto 50% Off"/>
-      <Card  Image="/images/sweets.png" title="Sweets" content="Upto 50% Off"/>
-      <Card  Image="/images/pastries.png" title="Pastries" content="Upto 50% Off"/>
-      <Card  Image="/images/gifts.png" title="Gifts" content="Upto 50% Off"/>
-      <Card Image="/images/snacks2.png" title="Snacks" content="Upto 50% Off"/> 
+      <Card  Image="/sweet-crum-bakers/images/rakhi-cake.png" title="Cakes" content="Upto 50% Off"/>
+      <Card  Image="/sweet-crum-bakers/images/snacks.png"  title="Namkeen" content="Upto 50% Off"/>
+      <Card  Image="/sweet-crum-bakers/images/sweets.png" title="Sweets" content="Upto 50% Off"/>
+      <Card  Image="/sweet-crum-bakers/images/pastries.png" title="Pastries" content="Upto 50% Off"/>
+      <Card  Image="/sweet-crum-bakers/images/gifts.png" title="Gifts" content="Upto 50% Off"/>
+      <Card Image="/sweet-crum-bakers/images/snacks2.png" title="Snacks" content="Upto 50% Off"/> 
     </div>
     <Slideshow/>
     </div>

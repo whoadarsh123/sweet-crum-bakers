@@ -1,9 +1,9 @@
 import React, { use, useEffect, useState } from 'react'
 import "./Slideshow.css"
 const images = [
-    "/images/banner.jpg",
-    "/images/cake.jpg",
-    "/images/bread.jpg",
+    "/sweet-crum-bakers/images/banner.jpg",
+    "/sweet-crum-bakers/images/cake.jpg",
+    "/sweet-crum-bakers/images/bread.jpg",
 ];
 
 const Slideshow = () => {
